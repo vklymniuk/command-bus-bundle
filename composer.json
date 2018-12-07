@@ -1,0 +1,34 @@
+{
+    "name": "vklymniuk/command-bus-bundle",
+    "description": "Command bus.",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "license": "MIT",
+    "type": "symfony-bundle",
+    "authors": [
+        {
+            "name": "Vladimir Klymniuk",
+            "email": "v.klymniuk@gmail.com"
+        }
+    ],
+    "keywords": [
+        "php",
+        "command-bus",
+        "middleware",
+        "symfony-bundle"
+    ],
+    "require": {
+        "php": "^7.2",
+        "psr/container": "^1.0",
+        "symfony/framework-bundle": "^4.1",
+        "symfony/dependency-injection": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "VKCommandBus\\": "src/"
+        }
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    }
+}
