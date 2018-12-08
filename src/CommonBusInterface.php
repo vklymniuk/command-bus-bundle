@@ -1,11 +1,11 @@
 <?php
 
-namespace VKCommandBusBundle;
+namespace VKCommonBusBundle;
 
 /**
- * Interface MessageBusInterface
+ * Interface CommonBusInterface
  */
-interface MessageBusInterface
+interface CommonBusInterface
 {
     /**
      * Dispatches the given message.

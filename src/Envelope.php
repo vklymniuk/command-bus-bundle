@@ -1,6 +1,6 @@
 <?php
 
-namespace VKCommandBusBundle;
+namespace VKCommonBusBundle;
 
 /**
  * Class Envelope

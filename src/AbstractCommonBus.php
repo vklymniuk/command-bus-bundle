@@ -1,14 +1,14 @@
 <?php
 
-namespace VKCommandBusBundle;
+namespace VKCommonBusBundle;
 
-use VKCommandBusBundle\Middleware\MiddlewareInterface;
-use VKCommandBusBundle\Stack\StackMiddleware;
+use VKCommonBusBundle\Middleware\MiddlewareInterface;
+use VKCommonBusBundle\Stack\StackMiddleware;
 
 /**
- * Class AbstractCommandBus
+ * Class AbstractCommonBus
  */
-abstract class AbstractCommandBus implements MessageBusInterface
+abstract class AbstractCommonBus implements CommonBusInterface
 {
     /**
      * @var Object
@@ -58,14 +58,6 @@ abstract class AbstractCommandBus implements MessageBusInterface
         $stack = new StackMiddleware($middlewareIterator);
 
         return $middlewareIterator->current()->handle($envelope, $stack);
-    }
-
-    /**
-     * @param MiddlewareInterface $middleware
-     */
-    public function addMiddleWare(MiddlewareInterface $middleware): void
-    {
-        $this->middlewareAggregate->aggregate->append($middleware);
     }
 
     /**

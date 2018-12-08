@@ -1,10 +1,10 @@
 {
-    "name": "vklymniuk/command-bus-bundle",
+    "name": "vklymniuk/common-bus",
     "description": "Command bus.",
     "minimum-stability": "dev",
     "prefer-stable": true,
     "license": "MIT",
-    "type": "symfony-bundle",
+    "type": "php-library",
     "authors": [
         {
             "name": "Vladimir Klymniuk",
@@ -13,19 +13,16 @@
     ],
     "keywords": [
         "php",
-        "command-bus",
-        "middleware",
-        "symfony-bundle"
+        "common-bus",
+        "middleware"
     ],
     "require": {
         "php": "^7.2",
-        "psr/container": "^1.0",
-        "symfony/framework-bundle": "^4.1",
-        "symfony/dependency-injection": "^4.1"
+        "psr/log": "^1.1"
     },
     "autoload": {
         "psr-4": {
-            "VKCommandBusBundle\\": "src/"
+            "VKCommonBusBundle\\": "src/"
         }
     },
     "require-dev": {
