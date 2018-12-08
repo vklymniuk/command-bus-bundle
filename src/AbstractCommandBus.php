@@ -1,9 +1,9 @@
 <?php
 
-namespace VKCommandBus;
+namespace VKCommandBusBundle;
 
-use VKCommandBus\Middleware\MiddlewareInterface;
-use VKCommandBus\Stack\StackMiddleware;
+use VKCommandBusBundle\Middleware\MiddlewareInterface;
+use VKCommandBusBundle\Stack\StackMiddleware;
 
 /**
  * Class AbstractCommandBus

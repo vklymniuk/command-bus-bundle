@@ -1,11 +1,11 @@
 <?php
 
-namespace VKCommandBus;
+namespace VKCommandBusBundle;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
-use VKCommandBus\DependencyInjection\Compiler\AddFacadePass;
-use VKCommandBus\Facade\AbstractFacade;
+use VKCommandBusBundle\DependencyInjection\Compiler\AddFacadePass;
+use VKCommandBusBundle\Facade\AbstractFacade;
 use Psr\Container\ContainerInterface;
 
 /**

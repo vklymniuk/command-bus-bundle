@@ -1,6 +1,6 @@
 <?php
 
-namespace VKCommandBus;
+namespace VKCommandBusBundle;
 
 /**
  * Interface MessageBusInterface

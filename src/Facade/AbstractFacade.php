@@ -1,6 +1,6 @@
 <?php
 
-namespace VKCommandBus\Facade;
+namespace VKCommandBusBundle\Facade;
 
 use Psr\Container\ContainerInterface;
 

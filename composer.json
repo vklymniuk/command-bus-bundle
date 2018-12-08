@@ -25,7 +25,7 @@
     },
     "autoload": {
         "psr-4": {
-            "VKCommandBus\\": "src/"
+            "VKCommandBusBundle\\": "src/"
         }
     },
     "require-dev": {

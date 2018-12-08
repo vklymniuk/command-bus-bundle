@@ -1,10 +1,10 @@
 <?php
 
-namespace VKCommandBus\Middleware;
+namespace VKCommandBusBundle\Middleware;
 
 use Psr\Log\LoggerInterface;
-use VKCommandBus\Envelope;
-use VKCommandBus\Stack\StackInterface;
+use VKCommandBusBundle\Envelope;
+use VKCommandBusBundle\Stack\StackInterface;
 
 /**
  * Class LoggingMiddleware

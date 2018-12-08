@@ -1,6 +1,6 @@
 <?php
 
-namespace VKCommandBus\DependencyInjection\Compiler;
+namespace VKCommandBusBundle\DependencyInjection\Compiler;
 
 use Symfony\Component\DependencyInjection\Alias;
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
@@ -8,7 +8,7 @@ use Symfony\Component\DependencyInjection\Compiler\ServiceLocatorTagPass;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Exception\InvalidArgumentException;
 use Symfony\Component\DependencyInjection\Reference;
-use VKCommandBus\Facade\AbstractFacade;
+use VKCommandBusBundle\Facade\AbstractFacade;
 
 /**
  * Class AddFacadePass
