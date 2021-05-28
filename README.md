@@ -5,7 +5,7 @@ Communication system that transfers message data between custom middleware.
 ## Install
 
 ```bash
-$ composer require vklymniuk/common-bus
+$ composer require symfony-ext/common-bus
 ```
 
 ## Register the bundle:
