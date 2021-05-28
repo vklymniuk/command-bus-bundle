@@ -1,5 +1,5 @@
 {
-    "name": "vklymniuk/common-bus",
+    "name": "symfony-ext/common-bus",
     "description": "Command bus.",
     "minimum-stability": "dev",
     "prefer-stable": true,
